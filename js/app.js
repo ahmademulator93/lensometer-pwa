@@ -87,7 +87,7 @@ if ("serviceWorker" in navigator) {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    if(!window.location.hostnameincludes("000webhost"))return;
+    if(!window.location.hostname.includes("000webhost"))return;
     var divs=document.getElementsByTagName('div');
     var target=divs.length-1;
     divs[target].style.display="none";
