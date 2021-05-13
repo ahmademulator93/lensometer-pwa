@@ -1,7 +1,7 @@
 {
     "name": "Lensometer Tool",
     "short_name": "Lensometer",
-   0/* "start_url": "index.html",
+   /* "start_url": "index.html",
       "scope": "./",*/
     "start_url": "./lensometer-pwa/index.html",
     "scope": "./lensometer-pwa/",
