@@ -3,8 +3,6 @@
     "short_name": "Lensometer",
     "start_url": "/lensometer-pwa/index.html",
     "scope": "/lensometer-pwa/",
-    /*"start_url": "index.html",
-      "scope": "./",*/
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#26a69a",
