@@ -1,0 +1,26 @@
+{
+    "name": "Lensometer Tool",
+    "short_name": "Lensometer",
+    "start_url": "index.html",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#26a69a",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/images/192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }, 
+      {
+        "src": "/images/144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }, 
+      {
+        "src": "/images/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }]
+  }
