@@ -1,11 +1,11 @@
 const staticDevCoffee = "lensometer";
 const assets = [
-  "/lensometer-pwa/",
-  "/lensometer-pwa/index.html",
-  "/lensometer-pwa/css/style.css",
-  "/lensometer-pwa/js/app.js",
-  "/lensometer-pwa/icon.png",
-  "/lensometer-pwa/images/"
+  "/",
+  "/index.html",
+  "/css/style.css",
+  "/js/app.js",
+  "/icon.png",
+  "/images/"
 ];
 
 self.addEventListener("install", installEvent => {
