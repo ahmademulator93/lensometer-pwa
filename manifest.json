@@ -11,17 +11,17 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "/images/192.png",
+        "src": "/lensometer-pwa/images/192.png",
         "type": "image/png",
         "sizes": "192x192"
       }, 
       {
-        "src": "/images/144.png",
+        "src": "/lensometer-pwa/images/144.png",
         "type": "image/png",
         "sizes": "144x144"
       }, 
       {
-        "src": "/images/512.png",
+        "src": "/lensometer-pwa/images/512.png",
         "type": "image/png",
         "sizes": "512x512"
       }]
