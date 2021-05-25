@@ -17,14 +17,14 @@ function calcLensometer(){
         displayPower(sphere,cylinder,axis);
         transpose(sphere,cylinder,axis);
     }else if(power_1==0){
-        let axis= 0;
-        let sphere=power_2;
-        let cylinder=0;
+        let axis= axis_2;
+        let sphere=axis==0?power_2:0;
+        let cylinder=axis!=0?power_2:0;
         displayPower(sphere,cylinder,axis);
     }else {
-        let axis= 0;
-        let sphere=power_1;
-        let cylinder=0;
+        let axis= axis_1;
+        let sphere=axis==0?power_1:0;
+        let cylinder=axis!=0?power_1:0;
         displayPower(sphere,cylinder,axis);
     }
 }
